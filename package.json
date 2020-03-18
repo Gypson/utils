@@ -1,0 +1,11 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Everyday utils",
+  "repository": "https://github.com/Gypson/utils.git",
+  "author": "Tyler Nixon",
+  "license": "MIT",
+  "dependencies": {
+    "ms": "^2.1.2"
+  }
+}
