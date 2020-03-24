@@ -30,7 +30,7 @@ export default isScrollable = node => {
   return new ScrollCheck(node).isScrollable();
 };
 
-export const scrollingParent = node = {
+export const scrollingParent = node => {
   const output = [];
   let el = node;
 
@@ -47,4 +47,4 @@ export const scrollingParent = node = {
   }
 
   return output;
-}
+};
